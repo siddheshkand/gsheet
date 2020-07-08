@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
   gsheetData: Gsheet;
   gsheetTabData: GSheetTab;
 
+  search =''
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
